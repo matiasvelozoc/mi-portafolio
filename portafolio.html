@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Matías Velozo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c1aa3e7e4f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- BARRA DE NAVEGACION -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/img/logo.png" alt="Logo" class="logo-img">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Volver al CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#sobre-mi">Sobre Mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#educacion">Educación</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#experiencia">Experiencia</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER PORTAFOLIO -->
+  <div class="header-portafolio">
+    <div class="container text-center">
+      <h1>Mi Portafolio</h1>
+      <p>Proyectos y trabajos realizados durante el Bootcamp</p>
+    </div>
+  </div>
+
+  <!-- PROYECTOS -->
+  <section>
+    <div class="container">
+      <div class="row">
+        
+        <!-- PROYECTO 1: Landing Page Iguana -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card card-proyecto">
+            <a href="assets/img/proyecto0.png" target="_blank">
+              <img src="assets/img/proyecto0.png" class="card-img-top imagen-proyecto" alt="Landing Page Iguana">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Landing Page - Iguanas</h5>
+              <p class="card-text">
+                Primera página web creada con HTML y CSS. Incluye información sobre iguanas 
+                con diseño responsive.
+              </p>
+              <div class="tecnologias-usadas">
+                <span class="badge bg-primary">HTML</span>
+                <span class="badge bg-info">CSS</span>
+              </div>
+              <div class="botones-proyecto">
+                <a href="https://github.com/matiasvelozoc/iguana-page" class="btn btn-sm btn-outline-dark">
+                  <i class="fab fa-github"></i> Código
+                </a>
+                <a href="#" class="btn btn-sm btn-primary">Ver Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROYECTO 2: Cuppon -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card card-proyecto">
+            <a href="assets/img/proyecto2.jpg" target="_blank">
+              <img src="assets/img/proyecto2.jpg" class="card-img-top imagen-proyecto" alt="Proyecto Cuppon">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Cuppon - Sistema de Cupones</h5>
+              <p class="card-text">
+                Sitio web de cupones de descuento utilizando Bootstrap. Implementa sistema 
+                de grillas y componentes card.
+              </p>
+              <div class="tecnologias-usadas">
+                <span class="badge bg-primary">HTML</span>
+                <span class="badge bg-info">CSS</span>
+                <span class="badge bg-secondary">Bootstrap</span>
+              </div>
+              <div class="botones-proyecto">
+                <a href="https://github.com/matiasvelozoc/cuppon" class="btn btn-sm btn-outline-dark">
+                  <i class="fab fa-github"></i> Código
+                </a>
+                <a href="#" class="btn btn-sm btn-primary">Ver Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROYECTO 3: CV con GitHub -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card card-proyecto">
+            <a href="assets/img/proyecto3.jpg" target="_blank">
+              <img src="assets/img/proyecto3.jpg" class="card-img-top imagen-proyecto" alt="CV GitHub">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">CV Personal con GitHub Pages</h5>
+              <p class="card-text">
+                Curriculum vitae versionado con Git y desplegado en GitHub Pages. 
+                Incluye trabajo colaborativo con fork.
+              </p>
+              <div class="tecnologias-usadas">
+                <span class="badge bg-primary">HTML</span>
+                <span class="badge bg-info">CSS</span>
+                <span class="badge bg-dark">Git</span>
+                <span class="badge bg-secondary">GitHub</span>
+              </div>
+              <div class="botones-proyecto">
+                <a href="https://github.com/matiasvelozoc/cv-github" class="btn btn-sm btn-outline-dark">
+                  <i class="fab fa-github"></i> Código
+                </a>
+                <a href="#" class="btn btn-sm btn-primary">Ver Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROYECTO 4: Este Portafolio -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card card-proyecto">
+            <img src="assets/img/proyecto4.jpg" class="card-img-top" alt="Portafolio">
+            <div class="card-body">
+              <h5 class="card-title">Portafolio Personal</h5>
+              <p class="card-text">
+                Este mismo portafolio donde muestro mis proyectos. Creado con Bootstrap 
+                y desplegado en GitHub Pages.
+              </p>
+              <div class="tecnologias-usadas">
+                <span class="badge bg-primary">HTML</span>
+                <span class="badge bg-info">CSS</span>
+                <span class="badge bg-secondary">Bootstrap</span>
+              </div>
+              <div class="botones-proyecto">
+                <a href="https://github.com/matiasvelozoc/mi-portafolio" class="btn btn-sm btn-outline-dark">
+                  <i class="fab fa-github"></i> Código
+                </a>
+                <a href="#" class="btn btn-sm btn-primary">Ver Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROYECTO 5: Proyecto Futuro (placeholder) -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card card-proyecto">
+            <img src="assets/img/proyecto5.jpg" class="card-img-top" alt="Proyecto en desarrollo">
+            <div class="card-body">
+              <h5 class="card-title">Próximo Proyecto</h5>
+              <p class="card-text">
+                Proyecto en desarrollo. Estoy aprendiendo JavaScript para crear 
+                aplicaciones web más interactivas.
+              </p>
+              <div class="tecnologias-usadas">
+                <span class="badge bg-warning">Próximamente</span>
+              </div>
+              <div class="botones-proyecto">
+                <a href="#" class="btn btn-sm btn-outline-dark disabled">
+                  <i class="fab fa-github"></i> Código
+                </a>
+                <a href="#" class="btn btn-sm btn-primary disabled">Ver Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROYECTO 6: Otro placeholder -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card card-proyecto">
+            <img src="assets/img/proyecto6.jpg" class="card-img-top" alt="Proyecto futuro">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto Personal</h5>
+              <p class="card-text">
+                Planeo crear un proyecto personal que combine mis conocimientos de 
+                terapia ocupacional con desarrollo web.
+              </p>
+              <div class="tecnologias-usadas">
+                <span class="badge bg-warning">En planificación</span>
+              </div>
+              <div class="botones-proyecto">
+                <a href="#" class="btn btn-sm btn-outline-dark disabled">
+                  <i class="fab fa-github"></i> Código
+                </a>
+                <a href="#" class="btn btn-sm btn-primary disabled">Ver Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LLAMADO A LA ACCION -->
+  <section class="seccion-contacto">
+    <div class="container text-center">
+      <h2>¿Quieres trabajar conmigo?</h2>
+      <p>Estoy disponible para proyectos freelance y oportunidades laborales</p>
+      <a href="index.html#contacto" class="btn btn-light btn-lg">Contáctame</a>
+      <a href="https://github.com/matiasvelozoc" class="btn btn-outline-light btn-lg">
+        <i class="fab fa-github"></i> Ver GitHub
+      </a>
+    </div>
+  </section>
+
+  <!-- PIE DE PAGINA -->
+  <footer>
+    <div class="container text-center">
+      <p>&copy; 2025 Matías Velozo Céspedes - Todos los derechos reservados</p>
+      <p><a href="index.html" class="link-footer">Volver al CV</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,289 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR */
+.logo-img {
+    height: 40px;
+}
+
+/* TARJETA PRINCIPAL */
+.contenedor-card {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    padding: 60px 0;
+}
+
+.tarjeta-principal {
+    background: white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 0;
+}
+
+.columna-foto {
+    background: #f5f5f5;
+    padding: 40px;
+    text-align: center;
+}
+
+.columna-foto img {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 5px;
+}
+
+.badge-hola {
+    background: #e74c3c;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.badge-hola a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.columna-info {
+    padding: 40px;
+}
+
+.columna-info h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.datos-personales {
+    margin-bottom: 30px;
+}
+
+.fila-dato {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.etiqueta {
+    font-weight: bold;
+    color: #999;
+    font-size: 12px;
+}
+
+.redes-sociales-card {
+    background: #e74c3c;
+    margin: 0 -40px 30px -40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.redes-sociales-card a {
+    color: white;
+    font-size: 22px;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.boton-descargar {
+    background: #333;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.boton-descargar:hover {
+    background: #555;
+    color: white;
+}
+
+/* SECCIONES */
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+}
+
+section h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section h4 {
+    color: #667eea;
+    margin-bottom: 15px;
+}
+
+.seccion-gris {
+    background: #f8f9fa;
+}
+
+#sobre-mi p {
+    text-align: justify;
+}
+
+/* BLOQUES DE EDUCACION Y EXPERIENCIA */
+.card {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.nombre-institucion, .nombre-empresa {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.fecha {
+    color: #999;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+/* LISTAS */
+ul {
+    line-height: 1.8;
+}
+
+/* PIE DE PAGINA */
+footer {
+    background: #333;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.link-footer {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-footer:hover {
+    color: #e74c3c;
+}
+
+/* === ESTILOS PARA PORTAFOLIO === */
+
+/* HEADER PORTAFOLIO */
+.header-portafolio {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    padding: 80px 0;
+}
+
+.header-portafolio h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.header-portafolio p {
+    font-size: 20px;
+}
+
+/* CARDS DE PROYECTOS */
+.card-proyecto {
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-proyecto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.card-proyecto img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.tecnologias-usadas {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.tecnologias-usadas .badge {
+    margin-right: 5px;
+}
+
+.botones-proyecto {
+    display: flex;
+    gap: 10px;
+}
+
+.botones-proyecto .btn {
+    flex: 1;
+}
+
+/* SECCION CONTACTO */
+.seccion-contacto {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 60px 0;
+    margin-top: 50px;
+}
+
+.seccion-contacto h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.seccion-contacto p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.seccion-contacto .btn {
+    margin: 0 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .columna-info {
+        padding: 30px 20px;
+    }
+    
+    .redes-sociales-card {
+        margin: 0 -20px 20px -20px;
+    }
+    
+    .columna-foto {
+        padding: 30px 20px;
+    }
+}
